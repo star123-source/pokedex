@@ -17,3 +17,9 @@
     margin-top: 2%;
     padding: 15px;
   }
+
+  .pokedex{
+    width: 100%;
+    max-width: 425px;
+    
+  }
