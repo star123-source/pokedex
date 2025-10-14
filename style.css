@@ -33,4 +33,11 @@
 
   }
 
-  
+  pokemon_data{
+    position: absolute;
+    font-weight: 600px;
+    color: blueviolet;
+    top: 54.5%;
+    right: 27%;
+    font-size: clamp(8px, 5vw, 24px);
+  }
