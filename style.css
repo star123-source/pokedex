@@ -64,5 +64,5 @@
     font-weight: 600;
     color: blueviolet;
     font-size: clamp(8px, 5vw, 24px);
-    box-shadow: ;
+    box-shadow:-3px 4px 0 #888 ;
   }
