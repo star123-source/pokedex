@@ -47,3 +47,12 @@
     color: rgb(204, 23, 23);
     text-transform: capitalize;
   }
+
+  .form {
+    position: absolute;
+    width: 65%;
+    top: 65%;
+    left: 13.5%;
+  }
+
+  
