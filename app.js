@@ -39,7 +39,8 @@ input.value = " ";
 })
 
 pokemon_prev.addEventListener("click",()=>{
-    if(searchPokemon > 1)}
+    if(searchPokemon > 1){
     searchPokemon -=1
-    
-)
+}
+
+})
