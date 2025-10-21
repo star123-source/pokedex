@@ -21,6 +21,25 @@ const fetchpokemon = async (pokemon) => {
 const renderPokemon = async (pokemon) => {
     const data = await fetchpokemon(pokemon)
     ImageTrack(data){
-        pokemon_name.innerHTML = data.name
+        pokemon_name.innerHTML = data.name;
+        pokemon_number.innerHTML = data.id;
+        pokemon_img.src = data['sprites'] ['versions'] ['generation-v']['black-white']['animated']['front_default'];
+    }else{
+        pokemon_name.innerHTML = 'Não encontrado';
+        pokemon_number.innerHTML = '';
+        pokemon_img.style.display = none;
     }
 }
+
+pokemon_form.addEventListener("submit", (event)=>{
+event.preventDefault ();
+console.log("Enviando Formulario",pokemon_input.value);
+renderPokemon(pokemon_input.value.toLowerCase());
+input.value = " ";
+})
+
+pokemon_prev.addEventListener("click",()=>{
+    if(searchPokemon > 1)}
+    searchPokemon -=1
+    
+)
