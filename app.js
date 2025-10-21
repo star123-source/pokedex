@@ -46,4 +46,8 @@ pokemon_prev.addEventListener("click",()=>{
 
 })
 
+pokemon_next.addEventListener("click", ()=>{
+    searchPokemon +=1
+}
 
+)
