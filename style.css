@@ -87,4 +87,7 @@
 
   }
 
-  
+  .button:active{
+    box-shadow: inset -4px 4 px 0 #888;
+    font-size: 0.9rem;
+  }
