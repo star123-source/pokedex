@@ -17,3 +17,10 @@ const fetchpokemon = async (pokemon) => {
             return data;
         }
 }
+
+const renderPokemon = async (pokemon) => {
+    const data = await fetchpokemon(pokemon)
+    ImageTrack(data){
+        pokemon_name.innerHTML = data.name
+    }
+}
