@@ -81,6 +81,7 @@
     width: 40%;
     height: 30%;
     padding: 5%;
+    justify-content: center;
     border: 2px solid black;
     border-radius: 25px;
     font-size: clamp(8px, 5vw, 24px);
