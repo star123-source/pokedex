@@ -1,4 +1,4 @@
-const pokemon_number = document.getElementById ("pkum");
+const pokemon_number = document.getElementById ("pknum");
 const pokemon_name = document.getElementById ("pkname");
 const pokemon_img = document.getElementById ("pkimg");
 
@@ -35,7 +35,7 @@ pokemon_form.addEventListener("submit", (event)=>{
 event.preventDefault ();
 console.log("Enviando Formulario",pokemon_input.value);
 renderPokemon(pokemon_input.value.toLowerCase());
-input.value = " ";
+input.value = "pokemon ";
 })
 
 pokemon_prev.addEventListener("click",()=>{

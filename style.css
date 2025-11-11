@@ -7,7 +7,7 @@
 
   body {
     text-align: center;
-    background-color: linear-gradient(to bottom, rgb(241, 6, 162), rgb(164, 36, 225));
+    background: linear-gradient(to bottom, rgb(241, 6, 162), rgb(164, 36, 225));
     min-height: 100vh;
   }
 
@@ -33,7 +33,7 @@
 
   }
 
-  pokemon_data{
+  .pokemon_data{
     position: absolute;
     font-weight: 600px;
     color: blueviolet;
