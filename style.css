@@ -91,3 +91,17 @@
     box-shadow: inset -4px 4 px 0 #888;
     font-size: 0.9rem;
   }
+
+  @media only screen and(max-width:960px){
+    header h1 {
+        letter-spacing: 5px;
+    }
+    main img {
+        width: 300px;
+        height: calc(100vh - 200px);
+        object-fit: cover;
+    }
+    main.pokemon_img{
+        
+    }
+}
