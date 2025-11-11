@@ -1,4 +1,4 @@
-const pokemon_number = document.getElementById ("pkun");
+const pokemon_number = document.getElementById ("pkum");
 const pokemon_name = document.getElementById ("pkname");
 const pokemon_img = document.getElementById ("pkimg");
 
@@ -27,7 +27,7 @@ const renderPokemon = async (pokemon) => {
     }else{
         pokemon_name.innerHTML = 'Não encontrado';
         pokemon_number.innerHTML = '';
-        pokemon_img.style.display = none;
+        pokemon_img.style.display = 'none';
     }
 }
 
